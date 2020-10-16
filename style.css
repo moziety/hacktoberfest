@@ -31,6 +31,7 @@ main a {
   background-color: var(--secondary-purple);
   padding-top: 10px;
   margin: 10px;
+  box-shadow: 2px 2px 5px black;
 }
 main a:hover {
   background-color: var(--secondary-purple-dark);
