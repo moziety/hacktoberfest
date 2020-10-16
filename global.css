@@ -4,7 +4,7 @@
   --main-pink: #ff73fa;
   --secondary-blue: #0069ff;
   --secondary-purple: #183d5d;
-  --secondary-purple-dark: hsl(208, 59%, 15%);
+  --secondary-purple-dark: hsl(208, 59%, 10%);
   --white: #ffffff;
   --primary-blue: #93c2db;
 }
@@ -13,6 +13,7 @@ body {
   background-color: var(--main-purple);
   color: var(--white);
   font-family: "Noto Sans JP", sans-serif;
+  box-sizing: border-box;
 }
 a {
   color: var(--primary-blue);
