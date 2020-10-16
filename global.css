@@ -1,0 +1,29 @@
+:root{
+    --main-purple: #072540;
+    --main-pink: #ff73fa;
+    --secondary-blue: #0069ff;
+    --secondary-purple: #183d5d;
+    --white: #ffffff;
+    --primary-blue: #93c2db;
+}
+
+body{
+    background-color: var(--main-purple);
+    color: var(--white)
+}
+a{
+    color: var(--primary-blue);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .9rem;
+    text-decoration: none;
+    transition: .3s;
+}
+a > i{
+    font-size: 2rem;
+    margin: 10px;
+}
+a:hover{
+    color: var(--main-pink);
+    text-decoration: none;
+}
