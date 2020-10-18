@@ -1,4 +1,4 @@
-# hacktoberfest
+# Hacktoberfest
 A repository to teach about Open Source Contribution and hacktoberfest
 
 #
