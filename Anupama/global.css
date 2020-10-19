@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+:root {
+  --main-purple: #072540;
+  --main-pink: #ff73fa;
+  --secondary-blue: #0069ff;
+  --secondary-purple: #183d5d;
+  --secondary-purple-dark: hsl(208, 59%, 10%);
+  --white: #ffffff;
+  --primary-blue: #93c2db;
+}
+
+body {
+  background-color: var(--main-purple);
+  color: var(--white);
+  font-family: "Noto Sans JP", sans-serif;
+  box-sizing: border-box;
+}
+a {
+  color: var(--primary-blue);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a > i {
+  font-size: 2rem;
+  margin: 10px;
+}
+a:hover {
+  color: var(--main-pink);
+  text-decoration: none;
+}
+.pink {
+  color: var(--main-pink);
+}
